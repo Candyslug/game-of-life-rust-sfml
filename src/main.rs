@@ -83,6 +83,8 @@ fn main() {
                             "Hello world",
                             Style::CLOSE,
                             &ContextSettings::default());
+    window.set_framerate_limit(60);
+    window.set_vertical_sync_enabled(true);
 
     let mut grid = Grid::new(20, 20);
 
