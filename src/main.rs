@@ -80,7 +80,7 @@ impl Grid {
 fn main() {
     
     let mut window = RenderWindow::new(VideoMode::new(800, 700, 32),
-                            "Hello world",
+                            "Conway's Game of Life - Made with Rust and SFML",
                             Style::CLOSE,
                             &ContextSettings::default());
     window.set_framerate_limit(60);
